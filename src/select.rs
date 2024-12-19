@@ -49,7 +49,7 @@ where
 ///
 /// # Example
 /// ```
-/// use feoh3::*;
+/// use sqlite_orm::*;
 /// # fn example<Person: OrmTable>(conn: &mut rusqlite::Connection) {
 /// let count = select_count::<Person>(conn, Some("age IS NULL OR age = 42"), &[]).unwrap();
 /// # }

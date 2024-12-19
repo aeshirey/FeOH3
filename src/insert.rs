@@ -83,7 +83,7 @@ where
 /// columns whose values will themselves be updated.
 ///
 /// ```ignore
-/// # use feoh3::*;
+/// # use sqlite_orm::*;
 /// # fn example(conn: &mut rusqlite::Connection) {
 /// let mut p = Person {
 ///     name: "Alice".to_string(),
